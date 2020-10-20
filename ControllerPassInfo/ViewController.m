@@ -19,8 +19,10 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    Controlador * controller = (Controlador *) segue.destinationViewController;
-    controller.nombre=_nombre.text;
+    if([segue.identifier isEqualToString:@"segueOne"]){
+        Controlador * controller = (Controlador *) segue.destinationViewController;
+        controller.nombre=_nombre.text;
+    }
 }
 
 /*- (IBAction)siguienteBtn:(id)sender {
