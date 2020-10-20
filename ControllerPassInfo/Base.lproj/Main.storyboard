@@ -20,7 +20,7 @@
                                 <rect key="frame" x="175" y="253" width="64" height="30"/>
                                 <state key="normal" title="Siguiente"/>
                                 <connections>
-                                    <action selector="siguienteBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Au-W1-X3o"/>
+                                    <segue destination="qxE-Qx-MiB" kind="show" id="T3e-nS-6v7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLw-0a-u8o">
@@ -62,11 +62,11 @@
             <objects>
                 <viewController storyboardIdentifier="secondScreen" id="qxE-Qx-MiB" customClass="Controlador" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsu-mp-Fnu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQs-cg-D0d">
-                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <rect key="frame" x="186" y="410.5" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
