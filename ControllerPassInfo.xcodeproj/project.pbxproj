@@ -16,6 +16,7 @@
 		309EA5C0253F3E4E00AA7FBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309EA5BF253F3E4E00AA7FBD /* main.m */; };
 		309EA5CA253F3E4E00AA7FBD /* ControllerPassInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309EA5C9253F3E4E00AA7FBD /* ControllerPassInfoTests.m */; };
 		309EA5D5253F3E4E00AA7FBD /* ControllerPassInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309EA5D4253F3E4E00AA7FBD /* ControllerPassInfoUITests.m */; };
+		309EA5F0253F3FD700AA7FBD /* Controlador.m in Sources */ = {isa = PBXBuildFile; fileRef = 309EA5EF253F3FD700AA7FBD /* Controlador.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		309EA5D0253F3E4E00AA7FBD /* ControllerPassInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllerPassInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		309EA5D4253F3E4E00AA7FBD /* ControllerPassInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerPassInfoUITests.m; sourceTree = "<group>"; };
 		309EA5D6253F3E4E00AA7FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309EA5EE253F3FD700AA7FBD /* Controlador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controlador.h; sourceTree = "<group>"; };
+		309EA5EF253F3FD700AA7FBD /* Controlador.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controlador.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				309EA5B4253F3E4A00AA7FBD /* ViewController.m */,
 				309EA5B6253F3E4A00AA7FBD /* Main.storyboard */,
 				309EA5B9253F3E4D00AA7FBD /* Assets.xcassets */,
+				309EA5EE253F3FD700AA7FBD /* Controlador.h */,
+				309EA5EF253F3FD700AA7FBD /* Controlador.m */,
 				309EA5BB253F3E4E00AA7FBD /* LaunchScreen.storyboard */,
 				309EA5BE253F3E4E00AA7FBD /* Info.plist */,
 				309EA5BF253F3E4E00AA7FBD /* main.m */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				309EA5B5253F3E4A00AA7FBD /* ViewController.m in Sources */,
+				309EA5F0253F3FD700AA7FBD /* Controlador.m in Sources */,
 				309EA5AF253F3E4A00AA7FBD /* AppDelegate.m in Sources */,
 				309EA5C0253F3E4E00AA7FBD /* main.m in Sources */,
 				309EA5B2253F3E4A00AA7FBD /* SceneDelegate.m in Sources */,
